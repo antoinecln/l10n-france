@@ -22,14 +22,15 @@
         'security/group.xml',
         'security/ir.model.access.csv',
         'data/transmit_method.xml',
-        'data/cron.xml',
         'data/mail_template.xml',
         'wizard/account_invoice_chorus_send_view.xml',
         'views/chorus_flow.xml',
+        #'data/cron.xml',
         'views/partner.xml',
-        'views/account_config_settings.xml',
+        'views/res_config_settings.xml',
         'views/account_invoice.xml',
         ],
     'demo': ['demo/demo.xml'],
     'installable': True,
 }
+

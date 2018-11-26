@@ -7,7 +7,7 @@ from odoo import models, fields
 
 
 class AccountConfigSettings(models.TransientModel):
-    _inherit = 'account.config.settings'
+    _inherit = 'res.config.settings'
 
     group_chorus_api = fields.Selection([
         (0, 'Do not use Chorus API'),
